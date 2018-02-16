@@ -21,19 +21,19 @@ This approach use the [web deploy] (https://www.iis.net/downloads/microsoft/web-
         - Install NuGet packages
         - Build with MSBuild. You have to point to the correct file (depends on the project), commonly the solution file (.sln) but it can be a .csproj or .publishproj file. Command line parameters: `/p:DeployOnBuild=true;Configuration=Release;PublishProfile=Dev`
 
-        Steps ![alt text](./img/aspnet-steps.png)
+        Steps ![alt text](https://raw.githubusercontent.com/nosnibor89/tc-templates/master/img/aspnet-steps.PNG)
 
-        MSBuild Step ![alt text](./img/aspnet-msbuild.png)
+        MSBuild Step ![alt text](https://raw.githubusercontent.com/nosnibor89/tc-templates/master/img/aspnet-msbuild.PNG)
     - Set artifacts paths for your web deploy package
 
-      MSBuild Step ![alt text](./img/aspnet-artifacts.png)
+      MSBuild Step ![alt text](https://raw.githubusercontent.com/nosnibor89/tc-templates/master/img/aspnet-artifacts.PNG)
 
 
 3. Create deployment configuration
     - Add Dependencies. Take snapshot for previous build config (Step 2) and add artifact dependency for the artifcacts in last step (same chain) 
 
-    Artifacts deps: ![alt text](./img/aspnet-snapshot.png)
+    Artifacts deps: ![alt text](https://raw.githubusercontent.com/nosnibor89/tc-templates/master/img/aspnet-snapshot.PNG)
     - Add build step for webdeploy. This can be a command line step. 
 
-    Artifacts deps: ![alt text](./img/aspnet-webdeploy.png)
+    Artifacts deps: ![alt text](https://raw.githubusercontent.com/nosnibor89/tc-templates/master/img/aspnet-webdeploy.PNG)
     

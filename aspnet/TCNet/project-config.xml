@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="57d5fae4-3c9e-40f9-8b0b-d77f596f6a74" xsi:noNamespaceSchemaLocation="http://www.jetbrains.com/teamcity/schemas/2017.2/project-config.xsd">
+  <name>TCNet</name>
+  <parameters />
+  <cleanup />
+</project>
+

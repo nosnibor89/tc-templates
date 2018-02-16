@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vcs-root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="9a83be5f-b11a-4f5c-a969-f2103b3f4f22" type="jetbrains.git" xsi:noNamespaceSchemaLocation="http://www.jetbrains.com/teamcity/schemas/2017.2/project-config.xsd">
+  <name>https://github.com/nosnibor89/tcnet</name>
+  <param name="agentCleanFilesPolicy" value="ALL_UNTRACKED" />
+  <param name="agentCleanPolicy" value="ON_BRANCH_CHANGE" />
+  <param name="authMethod" value="PASSWORD" />
+  <param name="branch" value="refs/heads/master" />
+  <param name="ignoreKnownHosts" value="true" />
+  <param name="secure:password" value="zxx044f6e596d5cd58d5845c0dd744fb248c74b7da99e19f5813c849308a3e75c7b55342789d8349b2e775d03cbe80d301b" />
+  <param name="submoduleCheckout" value="CHECKOUT" />
+  <param name="url" value="https://github.com/nosnibor89/tcnet" />
+  <param name="useAlternates" value="true" />
+  <param name="username" value="nosnibor89" />
+  <param name="usernameStyle" value="USERID" />
+</vcs-root>
+
